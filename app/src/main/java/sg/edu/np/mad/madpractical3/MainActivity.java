@@ -1,4 +1,4 @@
-package sg.edu.np.mad.practical3;
+package sg.edu.np.mad.madpractical3;
 
 import android.os.Bundle;
 import android.view.View;
@@ -11,6 +11,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+
+import sg.edu.np.mad.practical3.R;
+
 
 public class MainActivity extends AppCompatActivity {
 
