@@ -12,6 +12,8 @@ import android.widget.ImageView;
 
 import java.util.Random;
 
+import sg.edu.np.mad.practical3.R;
+
 public class ListActivity extends AppCompatActivity {
 
     @Override

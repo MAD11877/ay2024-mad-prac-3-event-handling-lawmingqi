@@ -8,6 +8,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import sg.edu.np.mad.practical3.R;
+
 public class MessageGroup extends AppCompatActivity {
 
     @Override
