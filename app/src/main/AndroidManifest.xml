@@ -10,10 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Practical3">
         <activity
-            android:name="sg.edu.np.mad.madpractical3.MessageGroup"
+            android:name=".MessageGroup"
             android:exported="false" />
         <activity
-            android:name="sg.edu.np.mad.madpractical3.ListActivity"
+            android:name=".ListActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,7 +22,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="sg.edu.np.mad.madpractical3.MainActivity"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
