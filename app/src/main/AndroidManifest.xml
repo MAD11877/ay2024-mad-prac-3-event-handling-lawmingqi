@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="sg.edu.np.mad.practical3">
+    package="sg.edu.np.mad.madpractical3">
 
     <application
         android:allowBackup="true"
@@ -10,10 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Practical3">
         <activity
-            android:name=".MessageGroup"
+            android:name="sg.edu.np.mad.madpractical3.MessageGroup"
             android:exported="false" />
         <activity
-            android:name=".ListActivity"
+            android:name="sg.edu.np.mad.madpractical3.ListActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

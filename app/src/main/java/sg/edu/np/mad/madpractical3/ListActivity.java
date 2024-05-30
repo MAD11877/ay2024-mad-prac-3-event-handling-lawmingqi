@@ -1,11 +1,8 @@
-package sg.edu.np.mad.practical3;
+package sg.edu.np.mad.madpractical3;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -29,7 +26,7 @@ public class ListActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Random num = new Random();
-                Integer numint = num.nextInt(999999);
+                Integer numint = num.nextInt(99999999);
 
                 AlertDialog.Builder builder = new AlertDialog.Builder(ListActivity.this);
 
